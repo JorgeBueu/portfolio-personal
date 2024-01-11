@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+#logo {
+    position: fixed;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+header img {
+    margin: 0%;
+    padding: 0%;
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+h1 {
+    color: rgb(79, 166, 224);
+}
+#gracias {
+    color: white;
+    text-align: center;
+    padding: 100px;
+    margin: 50px;
+}
+
+#gracias a {
+    text-decoration: none;
+    color: indianred;
+}
+
+footer {
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+footer p {
+    color: darkgrey;
+}
+
+footer a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: indianred;
+}
+
+footer a:hover {
+    color: grey;
+}

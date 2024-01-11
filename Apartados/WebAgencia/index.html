@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes</title>
+    <!-- Este ejercicio práctico puntúa sobre 10 para conseguir la máxima puntuación comienza por
+         completar los 5 puntos para la estructura html añadiendo las etiquetas que se requieren-->
+
+    <!--(0.5 PUNTOS) INSERTA LA HOJA DE ESTILO EN MODO EXTERNO-->
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+    <header>
+        <!--(0.25 PUNTOS) Inserta la imagen de la cabecera (images/cabecera.png). 
+            Asegurate de que le añades un texto de accesibilidad con una descripción breve-->
+        <img id="inicio" src="images/cabecera.png" title="isla paradisíaca" alt="foto de la cabecera">
+
+        <nav>
+
+            <!-- (1 PUNTO) Crea una lista desordenada con cada uno de los links del menú-->
+            <ul>
+
+                <!--(0.5 PUNTO CREAR DESTINOS)  Cada link tiene que ser un hiperlink  que llevar a;
+                  -Home al inicio de la web #
+                  -Destinos a la sección  destinos que debes definir en esta misma página
+                  -Ofertas al apartado que debes definir en esta misma página
+                  -Contacto al apartado Contacto-->
+                <li><a href="#inicio">Home</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="destinos"> <!--Sección destino del menú Destinos-->
+            <h1>Destinos Populares</h1> <!--TITULO-->
+            <div class="card-container">
+                <div class="card">
+                    <!--(0.5 PUNTOS) Inserta las imagenes adecuadas que están dentro de la carpeta images
+                        Cada imagen tiene que ser un link que abra la imagen más grande
+                        Cada imagen incluye un titulo-->
+
+                    <!--link a imagen1 en grande-->
+                    <!--imagen1 con título y descripción, no hace falta que le cambies el tamaño-->
+                    <a href="images/imagen1.jpg"><img src="images/imagen1.jpg" alt="imagen buceo"></a>
+                    <p>Buceo <em>Arqueológico.</em> </p>
+                </div>
+                <div class="card">
+                    <!--link a imagen2 en grande-->
+                    <!--imagen2 con título y descripción, no hace falta que le cambies el tamaño-->
+                    <a href="images/imagen2.jpg"><img src="images/imagen2.jpg" alt="imagen templo"></a>
+                    <p>Visita a las Ruinas de Chapaclept</p>
+                </div>
+                <div class="card">
+                    <!--link a imagen3 en grande-->
+                    <!--imagen1 con título y descripción, no hace falta que le cambies el tamaño-->
+                    <a href="images/imagen3.jpg"><img src="images/imagen3.jpg" alt="imagen montaña rusa"></a>
+                    <p>Descripción del destino 3.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ofertas"> <!--Sección ofertas del menú Ofertas-->
+            <h2>Ofertas Especiales</h2> <!--TITULO-->
+            <div class="oferta">
+                <!--(1 PUNTO) Lista ordenada-->
+                <h3>Oferta especial 1 - Día del Padre</h3><!--titulo-->
+                <p>Descubre destinos increíbles con nuestros paquetes exclusivos:</p> <!--parrafo-->
+
+                <ol> <!--Lista ordenada-->
+                    <li>Viaje a Cancún</li>
+                    <li>Viaje a Teotihuacán</li>
+                    <li>Viaje a Egipto</li>
+                </ol>
+
+            </div>
+            <div class="oferta">
+                <h3>Oferta especial 2 - Día de los Enamorados</h3> <!--TITULO-->
+                <p>Experiencias románticas en destinos de ensueño.</p> <!--Parrafo-->
+            </div>
+            <div class="oferta">
+                <h3>Oferta especial 3 - Tu Cumpleaños en el Amazonas</h3> <!--TITULO-->
+                <p>Una aventura inolvidable en el corazón de la selva.</p> <!--Parrafo-->
+            </div>
+        </section>
+
+        <section id="testimonios"><!--Sección testimonios del menú Testimonios-->
+            <h2>Testimonios de Clientes</h2> <!--TITULO-->
+
+            <!--(1 PUNTO). Crea la lista adecuada para presentar el contenido-->
+            <dl>
+                <dt class="nombre">
+                    Marta:
+                </dt>
+                <dd>No pensaba que me iba a salir tan bien de precio. Unas vacaciones estupendas. ⭐⭐⭐⭐⭐ <a
+                        href="ampliar.html">+info</a></dd>
+                <dt class="nombre">
+                    Antonio:
+                </dt>
+                <dd>Muy recomendado un 10, buen trato y las actividades lo mejor. ⭐⭐⭐ <a href="ampliar.html">+info</a>
+                </dd>
+                <dt class="nombre">
+                    Raquel:
+                </dt>
+                <dd>Guardé los bonos y me salió muy a cuenta. ⭐⭐⭐⭐ <a href="ampliar.html">+info</a></dd>
+            </dl>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacta con Nosotros</h2> <!--TITULO-->
+
+            <form id="form">
+
+                <div class="input__container">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+
+                <div class="input__container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="input__container">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <button id="boton">Submit</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!--(0.25 PUNTOS). Crea una lista desordenada con un link exterior a
+        Privacidad lleva a http://www.caribian.com/privacidad.html
+        Terminos lleva a http://www.caribian.com/terminos.html
+        Copyright lleva a http://www.caribian.com/copyright.html
+        -->
+
+        <ul>
+            <li><a href="http://www.caribian.com/privacidad.html">Privacidad</a></li>
+            <li><a href="http://www.caribian.com/terminos.html">Términos de Uso</a></li>
+            <li><a href="http://www.caribian.com/copyright.html">Copyright</a></li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>

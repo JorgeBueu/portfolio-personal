@@ -1,0 +1,189 @@
+body {
+    padding: 0%;
+    background-color: black;
+}
+
+header {
+    background-color: rgb(79, 166, 224);
+    padding: 10px;
+    margin: 0px;
+}
+
+header nav {
+    text-align: center;
+}
+
+div {
+    padding: 100px;
+    margin: 50px;
+}
+
+section {
+    color: white;
+}
+
+h2 , h3  {
+    color: rgb(79, 166, 224);
+}
+
+#logo {
+    position: fixed;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+header img {
+    margin: 0%;
+    padding: 0%;
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+#menu {
+    font-size: xx-large;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+    color: rgb(157, 208, 231);
+}
+
+#menu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+#menu li {
+    padding-right: 50px;
+    display: inline-block;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+}
+
+#portada {
+    height: 100vh;
+    width: 100vh;
+}
+
+#Portada {
+    text-align: center;
+}
+
+#Portada img {
+    width: 700px;
+    padding-top: 100px;
+}
+
+h1 {
+    color: white;
+}
+
+#SobreMi {
+    text-align: center;
+}
+
+#MisTrabajos {
+    text-align: center;
+}
+
+#MisTrabajos ul {
+    list-style: none;
+    display: inline-block;
+}
+
+#MisTrabajos li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#MisTrabajos a {
+    text-decoration: none;
+    color: black;
+}
+
+#MisTrabajos img {
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 300px;
+}
+
+#Aficiones {
+    text-align: center;
+}
+
+#twitter-timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#musica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contacto {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: darkgrey;
+}
+
+footer a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: indianred;
+}
+
+footer a:hover {
+    color: grey;
+}

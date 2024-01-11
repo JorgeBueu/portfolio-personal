@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge García | Web Developer</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="icon" href="Images\favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header id="top">
+        <a id="logo" href="#top"><img src="Images\LogoJorge.png" alt="logo de la web"></a>
+        <nav>
+            <ul id="menu">
+                <li><a href="#SobreMi">SOBRE MI</a></li>
+                <li><a href="#MisTrabajos">MIS TRABAJOS</a></li>
+                <li><a href="#Aficiones">AFICIONES</a></li>
+                <li><a href="#Contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="Portada">
+        <h1>Jorge García Freire<br>Web Developer Junior</h1>
+        <img src="Images\pngaaa.com-2431468.png" title="lenguajes de marcas" alt="imagen frontend">
+    </div>
+
+    <hr>
+
+    <section>
+        <div id="SobreMi">
+            <h2>SOBRE MI</h2>
+            <p>¡Hola! Soy un diseñador y desarrollador web que está empezando en este emocionante mundo.
+                Aunque estoy en las primeras etapas de mi carrera, ya le estoy dando forma a algunos proyectos,
+                especialmente en el diseño de interfaces intuitivas.<br>
+                Me encanta enfrentarme a nuevos desafíos que me permitan combinar mi creatividad con la tecnología.
+                Mi meta principal es no solo cumplir con las expectativas en mis proyectos web, sino también superarlas.
+                Quiero dejar mi marca en el mundo digital, haciendo cosas increíbles mientras sigo aprendiendo y
+                creciendo.
+            </p>
+            
+            <h3>¿DE DONDE SOY?</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11799.242465851665!2d-8.793837146933528!3d42.3252379536318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f66e2c3a449a5%3A0x61b1947eca9877a7!2sBueu%2C%20Pontevedra!5e0!3m2!1ses!2ses!4v1704910522161!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
+        
+            <h3>EL CLIMA</h3>
+            <iframe
+                src="https://api.wo-cloud.com/content/widget/?geoObjectKey=15678458&language=es&region=AR&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius"
+                name="CW2" scrolling="no" width="290" height="318" frameborder="0"
+                style="border: 1px solid #10658E;border-radius: 8px"></iframe>
+
+            
+                <div style="text-align:center;padding:1em 0;">
+                    <h3>LA HORA</h3>
+                    <a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/3127538">
+                    <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=medium&timezone=Europe%2FMadrid"
+                        width="100%" height="115" frameborder="0" seamless></iframe>
+                </div>
+        </div>
+
+        <hr>
+
+        <div id="MisTrabajos">
+            <h2>MIS TRABAJOS</h2>
+            <p>Pinchando aquí se pueden ver unas de mis primeras páginas web:</p>
+            <ul>
+                <li><a href="Apartados\WebAgencia\index.html"><img src="Images\icono-avion_910989-2088.avif"
+                            title="Avión" alt="Imagen avión"></a></li>
+                <li><a href="Apartados\BLOG COCINA\index.html"><img src="Images\istockphoto-1166149111-612x612.jpg"
+                            title="Chef" alt=" Imagen chef"></a></li>
+                <li><a href="Apartados\Daily news\Practica1_ Basico HTML.DailyNews.html"><img src="Images\periodico.jpg"
+                            title="Periódico" alt="Imagen periódico"></a></li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div id="Aficiones">
+            <h2>AFICIONES</h2>
+            <p>Me gusta ver videos de youtube, leer twitter y escuchar música. Por aquí dejo unos ejemplos.</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ryRa61jNiso?si=qAZ6278a6jTNkjh8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+                <div id="twitter-timeline">
+                <a class="twitter-timeline" data-lang="es" data-width="600" data-height="500" data-theme="dark"
+                    href="https://twitter.com/TQHTPodcast?ref_src=twsrc%5Etfw">Tweets by TQHTPodcast</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script><!-- ESTO ES EL WIDGET DE LA MÚSICA, SE VE TODO DESCUADRADO -->
+                <div class="elfsight-app-98251245-431e-4433-9bf8-6936ef2ed808" data-elfsight-app-lazy></div>
+
+        </div>
+
+        <hr>
+
+        <div id="Contacto">
+            <h2>CONTACTO</h2>
+            <p>Facilítame tus datos si quieres que me ponga en contacto contigo</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit"><a href="Apartados\Contacto\index.html">Enviar</a></button>
+            </form>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>© 2023 Jorge García. All rights reserved.</p>
+        <nav>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
